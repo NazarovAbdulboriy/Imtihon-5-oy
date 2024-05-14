@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+        background-image: linear-gradient(120deg, red, yellow);
+        color: white;
+    
+}
+
 .login-container {
     width: 1200px;
     margin-left: auto;
@@ -17,6 +23,7 @@
     height: 40px;
     border-radius: 10px;
     margin-top: 40px;
+    border: none;
 }
 
 .login-input2 {
@@ -24,6 +31,7 @@
     height: 40px;
     border-radius: 10px;
     margin-top: 30px;
+    border: none;
 
 
 }
@@ -51,6 +59,36 @@
     background-color: aqua;
     border-color: aqua;
     color: white;
-    fon
+    
+}
 
+.btnBox{
+    width: 200px;
+    height: 300px;
+    background-color: pink;
+}
+
+.question{
+    background-color: aqua;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-left: 667px;
+    margin-top: 60px;
+}
+
+
+.test{
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    left: 480px;
+}
+
+.savol{
+    position: absolute;
+    font-size: 30px;
+    top: 400px;
 }
